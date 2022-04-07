@@ -38,5 +38,5 @@ function updateRate()
     var rateval = document.getElementById("rate").value;
     
     //Display range value to the <span>adjacent to the slider
-    document.getElementById("rate_val").innerText=rateval;
+    document.getElementById("rate_val").innerText=rateval+"%";
 }    
